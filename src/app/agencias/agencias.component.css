@@ -1,0 +1,43 @@
+.agencias-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.agencia-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.agencia-card h2 {
+  margin-top: 0;
+  color: #003366;
+}
+
+.agencia-card p {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #002a4c;
+}
