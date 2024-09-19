@@ -16,6 +16,7 @@ import { PagaloComponent } from './pagalo/pagalo.component';
 import { AgenciasComponent } from './agencias/agencias.component';
 import { TarifasComponent } from './tarifas/tarifas.component';
 import { AgenciaDetalleComponent } from './agencia-detalle/agencia-detalle.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { AgenciaDetalleComponent } from './agencia-detalle/agencia-detalle.compo
     AgenciasComponent,
     TarifasComponent,
     AgenciaDetalleComponent,
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,
